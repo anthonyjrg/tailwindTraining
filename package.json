@@ -1,0 +1,16 @@
+{
+  "name": "TailwindTraining",
+  "version": "1.0.0",
+  "dependencies": {},
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css",
+    "serve": "light-server -s public -w public/*.html css/*.css # npm run build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "light-server": "^2.9.1",
+    "postcss": "^8.1.4",
+    "postcss-cli": "^8.1.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
